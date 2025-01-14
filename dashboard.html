@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Include necessary stylesheets and libraries, including Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="dashboard.js"></script>
+</head>
+<body>
+    <h1>Trending Mental Health Topics</h1>
+    <p>Brief summary of the analysis...</p>
+    <div class="chart-container">
+        <canvas id="lineChart"></canvas>
+    </div>
+    <div class="feedback">
+        <h2>Feedback:</h2>
+        <p id="feedback-text"></p>
+    </div>
+
+    <script>
+        // Function to load and display the chart
+        function loadChart() {
+            const ctx = document.getElementById('lineChart').getContext('2d');
+            fetch("/api/get_analyzed_data")
+                .then(response => response.json())
+                .then(data => {
+                    const labels = Object.keys(data);
+                    const counts = Object.values(data);
+
+                    const chartData = {
+                        labels: labels,
+                        datasets: [{
+                            label: 'Keyword Occurrences',
+                            data: counts,
+                            fill: false,
+                            borderColor: 'rgba(75, 192, 192, 1)',
+                            tension: 0.1
+                        }]
+                    };
+
+                    new Chart(ctx, {
+                        type: 'line',
+                        data: chartData
+                    });
+
+                    // Display feedback
+                    document.getElementById('feedback').textContent = "Chart updated successfully.";
+                })
+                .catch(error => {
+                    console.error(error);
+                    document.getElementById('feedback').textContent = "Failed to update chart.";
+                });
+        }
+
+        // Load the chart initially
+        loadChart();
+
+        // Automatically update the chart every 5 seconds
+        setInterval(loadChart, 5000);
+    </script>
+</body>
+</html>
