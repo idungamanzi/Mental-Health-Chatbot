@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>YO-MH - Empower Your Mind, Defeat Depression</title>
+  <title>Hoolix - Smart Ideas for your Brand are Here</title>
 
   <!-- 
     - favicon
@@ -29,7 +29,7 @@
   <!-- 
     - preload images
   -->
-  <link rel="preload" as="image" href="./assets/images/Screenshot (122).png">
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
 
 </head>
 
@@ -42,12 +42,12 @@
   <header class="header" data-header>
     <div class="container">
 
-      <a href="#" class="logo"></a>
+      <a href="#" class="logo">Hoolix</a>
 
       <nav class="navbar" data-navbar>
 
         <div class="wrapper">
-          <a href="#" class="logo">Yo-MH</a>
+          <a href="#" class="logo">Hoolix</a>
 
           <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
             <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
@@ -61,11 +61,11 @@
           </li>
 
           <li>
-            <a href="#about" class="navbar-link" data-nav-link>Intro</a>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
           </li>
 
           <li>
-            <a href="#service" class="navbar-link" data-nav-link>About</a>
+            <a href="#services" class="navbar-link" data-nav-link>Services</a>
           </li>
 
           <li>
@@ -73,7 +73,7 @@
           </li>
 
           <li>
-            <a href="http://127.0.0.1:5000/dashboard" class="navbar-link" data-nav-link>Dashboard</a>
+            <a href="#" class="navbar-link" data-nav-link>Blog</a>
           </li>
 
           <li>
@@ -88,12 +88,16 @@
         <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
       </button>
 
-      <a href="http://127.0.0.1:5000/" class="btn-outline">Chatbot</a>
+      <a href="#" class="btn-outline">Lets talk</a>
 
       <div class="overlay" data-nav-toggler data-overlay></div>
 
     </div>
   </header>
+
+
+
+
 
   <main>
     <article>
@@ -107,16 +111,15 @@
 
           <div class="hero-content">
 
-            <p class="hero-subtitle has-before">YO-MH ChatBot</p>
+            <p class="hero-subtitle has-before">Wellcome to Our Agency</p>
 
-            <h1 class="h1 hero-title">Chatbots for Mental Health: The Future of Therapy</h1>
+            <h1 class="h1 hero-title">Smart Ideas for your Brand are Here</h1>
 
             <p class="hero-text">
-             
-              Chatbots are transforming the world of mental health by 
-              providing fast and easy access to therapy. With our chatbot,
-               you can get 24/7 support without the hassle of scheduling appointments
-              or waiting for a therapist
+              Donec tincidunt lacinia diam, eu volutpat est sollicitudin at. Vestibulum ut mi tristi que, vulputate ante
+              quis, tempus
+              enim. Proin quis euismod purus. Suspen disse efficitur
+              aliquam enim sed consequat vulputate ante quis.
             </p>
 
             <div class="btn-group">
@@ -134,7 +137,7 @@
           </div>
 
           <figure class="hero-banner has-before img-holder" style="--width: 650; --height: 650;">
-            <img src="./assets/images/OIP.jpg" width="650" height="650" alt="hero banner" class="img-cover">
+            <img src="./assets/images/hero-banner.png" width="650" height="650" alt="hero banner" class="img-cover">
           </figure>
 
         </div>
@@ -152,36 +155,45 @@
         <div class="container">
 
           <figure class="about-banner">
-            <img src="./assets/images/Chatbot_image.jpg" width="802" height="654" loading="lazy" alt="chatbot image"
+            <img src="./assets/images/about-banner.png" width="802" height="654" loading="lazy" alt="about banner"
               class="w-100">
           </figure>
 
           <div class="about-content">
 
-            <h2 class="h2-sm section-title">What is a Chatbot? </h2>
+            <h2 class="h2-sm section-title">We create some things, Design for your success future.</h2>
 
             <p class="section-text">
-              A chatbot is an artificial intelligence program designed
-              to simulate human conversation. It can help you with tasks,
-              answer your questions, and provide emotional support
-              n a conversational way. Our chatbot is specifically 
-              designed to help you improve your mental health.
+              Lorem Ipsum is simply dumm of free available in market the way printing and typesetting industry has been
+              the industrys
+              standard dummy text ever.
             </p>
 
-           
-              <h2 class="h2-sm section-title">Why Use a Chatbot for Mental Health?</h2>
-               <p>Therapy can be intimidating and expensive. Chatbots provide a low-cost 
-                and low-pressure alternative. Research shows that chatbots can 
-                be just as effective as traditional therapy for certain mental health issues. </p>
-              
-            
+            <ul class="about-list">
+
+              <li class="has-before">
+                Price of additional materials or parts (if needed)
+              </li>
+
+              <li class="has-before">
+                Transportation cost for carrying new materials/parts
+              </li>
+
+              <li class="has-before">
+                You will get 100% money back offer.
+              </li>
+
+            </ul>
 
             <div class="btn-group">
               <a href="#" class="btn btn-primary">Know More</a>
 
               <button class="flex-btn">
                 <div class="btn-icon">
+                  <ion-icon name="medal-outline" aria-hidden="true"></ion-icon>
                 </div>
+
+                <span class="span">10+ Years Experience</span>
               </button>
             </div>
 
@@ -203,10 +215,11 @@
 
           <p class="section-subtitle text-center">-What We Offer-</p>
 
-          <h2 class="h2 section-title text-center">About</h2>
+          <h2 class="h2 section-title text-center">Our Creative Services</h2>
 
           <p class="section-text text-center">
-            
+            Get the most of reduction in your team’s operating costs for the whole product which creates amazing UI/UX
+            experiences.
           </p>
 
           <ul class="grid-list">
@@ -215,21 +228,21 @@
               <div class="service-card has-after">
 
                 <figure class="card-icon">
-                  <!--<img src="+" width="140" height="140" loading="lazy"
-                    alt="Mission and Purpose" class="img"> -->
+                  <img src="./assets/images/service-1.png" width="140" height="140" loading="lazy"
+                    alt="UI/UX Creative Design" class="img">
                 </figure>
 
                 <div class="card-content">
 
-                  <h3 class="h3 card-title">Mission and Purpose</h3>
+                  <h3 class="h3 card-title">UI/UX Creative Design</h3>
 
                   <p class="card-text">
-                    Our mission is to promote mental health awareness and provide accessible support to individuals facing mental health challenges. 
-                    We aim to create a safe and stigma-free environment for open conversations about mental well-being.
+                    Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget luctlie gula and
+                    adipiscing elit.
                   </p>
 
                   <a href="#" class="btn-link">
-                    <span class="span"></span>
+                    <span class="span">Read More</span>
 
                     <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                   </a>
@@ -243,24 +256,21 @@
               <div class="service-card has-after">
 
                 <figure class="card-icon">
-                  <!--<img src="#" width="140" height="140" loading="lazy" alt="Objectives"
-                    class="img"> -->
+                  <img src="./assets/images/service-2.png" width="140" height="140" loading="lazy" alt="App Development"
+                    class="img">
                 </figure>
 
                 <div class="card-content">
 
-                  <h3 class="h3 card-title">Objectives</h3>
+                  <h3 class="h3 card-title">App Development</h3>
 
                   <p class="card-text">
-                    Our objectives include:
-                    -Offering information on various mental health issues.
-                    -Providing guidance and resources for managing mental health.
-                    -Encouraging early intervention and seeking professional help when necessary.
-                    -Reducing the stigma associated with mental health concerns.
+                    Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget luctlie gula and
+                    adipiscing elit.
                   </p>
 
                   <a href="#" class="btn-link">
-                    <span class="span"></span>
+                    <span class="span">Read More</span>
 
                     <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                   </a>
@@ -274,22 +284,21 @@
               <div class="service-card has-after">
 
                 <figure class="card-icon">
-                  <!--<img src="#" width="140" height="140" loading="lazy"
-                    alt="Privacy and Confidentiality" class="img"> -->
+                  <img src="./assets/images/service-3.png" width="140" height="140" loading="lazy"
+                    alt="Professional Content Writer" class="img">
                 </figure>
 
                 <div class="card-content">
 
-                  <h3 class="h3 card-title">Privacy and Confidentiality</h3>
+                  <h3 class="h3 card-title">Professional Content Writer</h3>
 
                   <p class="card-text">
-                    Your privacy is our priority. Conversations with our chatbot are confidential and secure. 
-                    We do not store or share your personal information. 
-                    You can use this platform with confidence, knowing that your data is protected.
+                    Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget luctlie gula and
+                    adipiscing elit.
                   </p>
 
                   <a href="#" class="btn-link">
-                    <span class="span"></span>
+                    <span class="span">Read More</span>
 
                     <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                   </a>
@@ -303,22 +312,21 @@
               <div class="service-card has-after">
 
                 <figure class="card-icon">
-                  <!-- <img src="#" width="140" height="140" loading="lazy" alt="Disclaimer and Professional Advice"
-                    class="img"> -->
+                  <img src="./assets/images/service-4.png" width="140" height="140" loading="lazy" alt="Graphic Design"
+                    class="img">
                 </figure>
 
                 <div class="card-content">
 
-                  <h3 class="h3 card-title">Disclaimer and Professional Advice</h3>
+                  <h3 class="h3 card-title">Graphic Design</h3>
 
                   <p class="card-text">
-                    Important Disclaimer: Our chatbot is not a substitute for professional medical or mental health advice. 
-                    While we offer information and support, we strongly recommend consulting qualified healthcare providers for personalized guidance on mental health issues. 
-                    Your well-being is our primary concern.
+                    Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget luctlie gula and
+                    adipiscing elit.
                   </p>
 
                   <a href="#" class="btn-link">
-                    <span class="span"></span>
+                    <span class="span">Read More</span>
 
                     <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                   </a>
@@ -348,10 +356,11 @@
 
           <p class="section-subtitle text-center">-Why Choose Us-</p>
 
-          <h2 class="h2 section-title text-center">Features of our Chatbot</h2>
+          <h2 class="h2 section-title text-center">Reasons to Choose Us</h2>
 
           <p class="section-text text-center">
-            
+            Get the most of reduction in your team’s operating costs for the whole product which creates amazing UI/UX
+            experiences.
           </p>
 
           <ul class="grid-list">
@@ -361,11 +370,10 @@
 
                 <data class="card-number" value="01">01</data>
 
-                <h3 class="h3 card-title">Round-the-Clock Support</h3>
+                <h3 class="h3 card-title">Free Icon Plugin</h3>
 
                 <p class="card-text">
-                  Our chatbot is always available to
-                 listen and provide emotional support.
+                  Nullam ullamcorper condimentum urna eu accumsan.
                 </p>
 
               </div>
@@ -376,11 +384,10 @@
 
                 <data class="card-number" value="02">02</data>
 
-                <h3 class="h3 card-title">Personalized Approach</h3>
+                <h3 class="h3 card-title">Free 6 Month Support</h3>
 
                 <p class="card-text">
-                  Our chatbot is designed to adapt
-                  to your specific needs and goals.
+                  Nullam ullamcorper condimentum urna eu accumsan.
                 </p>
 
               </div>
@@ -391,11 +398,10 @@
 
                 <data class="card-number" value="03">03</data>
 
-                <h3 class="h3 card-title">Professional Guidance</h3>
+                <h3 class="h3 card-title">Customer Strategy</h3>
 
                 <p class="card-text">
-                  Our chatbot is backed by mental health
-                 experts to ensure the best possible support.
+                  Nullam ullamcorper condimentum urna eu accumsan.
                 </p>
 
               </div>
@@ -406,11 +412,10 @@
 
                 <data class="card-number" value="04">04</data>
 
-                <h3 class="h3 card-title">Non-judgmental</h3>
+                <h3 class="h3 card-title">Best Premimum Image</h3>
 
                 <p class="card-text">
-                  Our chatbot is an unbiased listener
-                  who is here to support you judgment-free.
+                  Nullam ullamcorper condimentum urna eu accumsan.
                 </p>
 
               </div>
@@ -421,11 +426,10 @@
 
                 <data class="card-number" value="05">05</data>
 
-                <h3 class="h3 card-title">Easy to Use</h3>
+                <h3 class="h3 card-title">Most Advanced Features</h3>
 
                 <p class="card-text">
-                  Chat with our bot through an 
-                  intuitive chat interface that is easy and fun to use.
+                  Nullam ullamcorper condimentum urna eu accumsan.
                 </p>
 
               </div>
@@ -436,12 +440,11 @@
 
                 <data class="card-number" value="06">06</data>
 
-                <h3 class="h3 card-title">Convenient</h3>
+                <h3 class="h3 card-title">Very Reasonable Price</h3>
 
                 <p class="card-text">
-                  
-                </p>Access our chatbot 24/7 from 
-                anywhere with an internet connection.
+                  Nullam ullamcorper condimentum urna eu accumsan.
+                </p>
 
               </div>
             </li>
@@ -475,7 +478,7 @@
 
                 <button class="card-action" data-accordion-action>
                   <h3 class="h3 card-title">
-                    1. What is the purpose of this mental health chatbot?
+                    01. Curious about how to build your own UX strategy? Here are five simple steps.
                   </h3>
 
                   <div class="action-icon">
@@ -486,9 +489,15 @@
 
                 <div class="card-content">
                   <p>
-                    The purpose of this chatbot is to provide information and support related to mental health. 
-                    It can answer questions about various mental health issues, provide definitions, symptoms, causes, and tips for coping. 
-                    Additionally, it offers emotional support and guidance.
+                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae
+                    posuere semper, libero ex
+                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit
+                    amet condimentum
+                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in
+                    luctus. Nullam
+                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                    Sed varius, diam
+                    vitae posuere semper.
                   </p>
                 </div>
 
@@ -500,7 +509,7 @@
 
                 <button class="card-action" data-accordion-action>
                   <h3 class="h3 card-title">
-                    2. How can I use this chatbot to learn more about a specific mental health concern?
+                    02. Where Could a Career in UX Take You? Agency vs. In-House vs. Freelance?
                   </h3>
 
                   <div class="action-icon">
@@ -511,8 +520,15 @@
 
                 <div class="card-content">
                   <p>
-                    You can simply type in your question or the name of the mental health issue you're interested in learning about. 
-                    The chatbot will provide you with information, including definitions, symptoms, causes, and tips for dealing with that specific concern.
+                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae
+                    posuere semper, libero ex
+                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit
+                    amet condimentum
+                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in
+                    luctus. Nullam
+                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                    Sed varius, diam
+                    vitae posuere semper.
                   </p>
                 </div>
 
@@ -524,7 +540,7 @@
 
                 <button class="card-action" data-accordion-action>
                   <h3 class="h3 card-title">
-                    3. Can the chatbot provide personalized advice for my mental health issues?
+                    03. What Is a Problem Statement in UX? (And How To Write One?
                   </h3>
 
                   <div class="action-icon">
@@ -535,8 +551,15 @@
 
                 <div class="card-content">
                   <p>
-                    While the chatbot can offer general tips and guidance, it's essential to remember that it's not a substitute for professional help. 
-                    For personalized advice and support, it's recommended to consult with a mental health professional who can assess your specific situation.
+                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae
+                    posuere semper, libero ex
+                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit
+                    amet condimentum
+                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in
+                    luctus. Nullam
+                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                    Sed varius, diam
+                    vitae posuere semper.
                   </p>
                 </div>
 
@@ -548,7 +571,7 @@
 
                 <button class="card-action" data-accordion-action>
                   <h3 class="h3 card-title">
-                    4. How accurate is the information provided by the chatbot?
+                    04. There are several techniques UX designers employ to arrive at a succinct?
                   </h3>
 
                   <div class="action-icon">
@@ -559,8 +582,15 @@
 
                 <div class="card-content">
                   <p>
-                    The chatbot is designed to provide accurate and up-to-date information based on established mental health knowledge. 
-                    However, it's essential to verify any information obtained here with a healthcare provider or trusted source for complete assurance.
+                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae
+                    posuere semper, libero ex
+                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit
+                    amet condimentum
+                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in
+                    luctus. Nullam
+                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                    Sed varius, diam
+                    vitae posuere semper.
                   </p>
                 </div>
 
@@ -572,7 +602,7 @@
 
                 <button class="card-action" data-accordion-action>
                   <h3 class="h3 card-title">
-                    5. What should I do if I'm in crisis or need immediate help for a mental health emergency?
+                    05. What are the obstacles users are facing? What are they trying to do?
                   </h3>
 
                   <div class="action-icon">
@@ -583,8 +613,15 @@
 
                 <div class="card-content">
                   <p>
-                    If you're in crisis or need immediate assistance, please reach out to a mental health crisis hotline or a healthcare professional. 
-                    You can contact the 24 Hour Emergency at 035-902 6599 & 035-902 6479
+                    Morbi aliquam quis quam in luctus. Nullam tincidunt pulvinar imperdiet. Sed varius, diam vitae
+                    posuere semper, libero ex
+                    hendrerit nunc, ac sagittis eros metus ut diam. Donec a nibh in libero maximus vehicula. Etiam sit
+                    amet condimentum
+                    erat. Pellentesque ultrices sagittis turpis, quis tempus ante viverra et.Morbi aliquam quis quam in
+                    luctus. Nullam
+                    tincidunt pulvinar imperdiet. Sed varius, diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                    Sed varius, diam
+                    vitae posuere semper.
                   </p>
                 </div>
 
@@ -614,10 +651,10 @@
 
         <div class="footer-brand">
 
-          <a href="#" class="logo">YO-MH</a>
+          <a href="#" class="logo">Hoolix</a>
 
           <p class="footer-text">
-           Mental health Chatbot.
+            Lorem ipsum dolor sit amet consecte tur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
           </p>
 
           <form action="" class="newsletter-form">
@@ -632,7 +669,7 @@
 
         <ul class="footer-list">
 
-         <!-- <li>
+          <li>
             <p class="footer-list-title">Our Services</p>
           </li>
 
@@ -660,11 +697,11 @@
             <a href="#" class="footer-link">App Development</a>
           </li>
 
-        </ul> -->
+        </ul>
 
         <ul class="footer-list">
 
-          <!--<li>
+          <li>
             <p class="footer-list-title">Company</p>
           </li>
 
@@ -692,7 +729,7 @@
             <a href="#" class="footer-link">Contact Us</a>
           </li>
 
-        </ul> -->
+        </ul>
 
         <ul class="footer-list">
 
@@ -704,20 +741,20 @@
             <ion-icon name="location" aria-hidden="true"></ion-icon>
 
             <address class="contact-link address">
-              KwaDlangezwa, 3886
+              4517 Washington Ave. Manchester, Kentucky 39495
             </address>
           </li>
 
           <li class="footer-item">
             <ion-icon name="call" aria-hidden="true"></ion-icon>
 
-            <a href="tel:+7894631546876" class="contact-link">035-902 6599</a>
+            <a href="tel:+7894631546876" class="contact-link">+7894631546876</a>
           </li>
 
           <li class="footer-item">
             <ion-icon name="mail" aria-hidden="true"></ion-icon>
 
-            <a href="mailto:info@YO-MH.com" class="contact-link">info@YO-MH.com</a>
+            <a href="mailto:info@hoolix.com" class="contact-link">info@hoolix.com</a>
           </li>
 
           <li class="footer-item">
@@ -759,7 +796,7 @@
       <div class="container">
 
         <p class="copyright">
-          &copy; 2023 YO-MH<a href="#" class="copyright-link"></a>
+          &copy; 2022 Hoolix | All Rights Reserved by <a href="#" class="copyright-link">codewithsadee</a>
         </p>
 
         <ul class="footer-bottom-list">
