@@ -6,7 +6,7 @@ import json
 app = Flask(__name__)
 collected_keywords = []
 # Set up OpenAI API credentials
-openai.api_key = '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'
+openai.api_key = ''
 
 
 # Define the default route to return the index.html file
@@ -70,4 +70,5 @@ def get_analyzed_data():
 
 if __name__=='__main__':
     app.run()
+
 
